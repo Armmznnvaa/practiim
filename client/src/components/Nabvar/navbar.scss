@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+
+.bck{
+    padding-top: 50px;
+    background-image: url(https://preview.colorlib.com/theme/tasty/images/bg_2.jpg.webp);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    .fix{
+       
+        .tasdybtn{
+            color: white;
+            border: 1px solid white;
+            background-color: none !important;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+    
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4rem;
+                    .home{
+                        color: white;
+                        text-decoration: none;
+                    }
+               li{
+                color: white;
+                font-size: 15px;
+               }
+                }
+
+    }
+
+   
+    .text{
+        margin-top: 10rem;
+        h1{
+            color: white;
+            font-size: 60px;
+            margin-bottom: 40px;
+
+        }
+        a{
+            text-decoration: none;
+            background-color: none !important;
+            color: white !important;
+            border: 1px solid white;
+            padding: 13px 40px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+            
+
+}
+@media screen and (max-width: 480px) {
+    .bck{
+        ul li{
+            display: none;
+        }
+    }
+  }
+  

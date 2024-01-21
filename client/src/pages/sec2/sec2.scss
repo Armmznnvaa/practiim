@@ -1,0 +1,90 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text{
+    margin-top: 20px;
+    margin-bottom: 9rem;
+    h6{
+        color: #cccccc;
+        font-size: 15px;
+    }
+    
+
+  }
+  
+  .card{
+    position: relative;
+    .images{
+        
+        width: 30%;
+        position: absolute;
+        top: -49px;
+        left: 142px;
+        img{
+            border-radius: 100%;
+          
+        }
+    }
+   
+   .icon{
+    margin-top: 5rem;
+   }
+    p{
+        color: #cccccc;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+       
+    }
+    h5{
+        color: black;
+        font-size: 16px;
+    }
+    h6{
+        color: #cccccc;
+        font-size: 13px;
+        margin-bottom: 3rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+     .card{
+      width: 100%;
+     }
+  }
